@@ -68,12 +68,9 @@ else
                                 >
                                     <img class="yellow-trash" src="~/assets/trash.png" alt="">
                                 </a>
-                                <a  asp-controller="Jogador" 
-                                    asp-action="Editar" 
-                                    asp-route-id="@jogador.IdJogador"
-                                >
-                                    <img class="yellow-trash" src="~/assets/edit.png" alt="">
-                                </a>
+                                
+                                <a asp-area="" asp-controller="Jogador" asp-action="Editar" asp-route-id="@jogador.IdJogador">Editar</a>
+                                
                             </td>
                         </tr>
                     }
